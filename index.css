@@ -1,7 +1,6 @@
 body{
     font-family: 'Comfortaa', sans-serif;
-    align-items: center;
-    background-color: #a1a1a1;
+    background-color: #b0b5b3;
 }
 
 
@@ -17,8 +16,8 @@ body{
 
 #content
 {
-    top: 0;
-    bottom: 0;
-    width: 700px;
-    margin: auto;
+    color: #601700;
+    height: 300px;
+    width: 600px;
+    margin: 15% auto;
 }
