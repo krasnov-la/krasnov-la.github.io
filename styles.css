@@ -1,6 +1,10 @@
 body{
     font-family: 'Comfortaa', sans-serif;
     background-color: #b0b5b3;
+<<<<<<< HEAD
+=======
+    overflow: hidden;
+>>>>>>> bce3342 (redesign)
 }
 
 
@@ -14,10 +18,44 @@ body{
     font-weight: 700;
 }
 
+<<<<<<< HEAD
 #content
 {
     color: #601700;
     height: 300px;
     width: 600px;
+=======
+.flex-row
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+}
+
+svg
+{
+    transform: translateY(8px);
+    fill: #601700;
+    width: 40px;
+    height: 40px;
+    transition: all linear 0.4s;
+}
+
+svg:hover
+{
+    fill: #07393c;
+}
+
+#content
+{
+    box-shadow: 5px 5px 4px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #FFCFC8;
+    color: #601700;
+    height: fit-content;
+    width: fit-content;
+>>>>>>> bce3342 (redesign)
     margin: 15% auto;
 }
