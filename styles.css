@@ -25,7 +25,7 @@ body{
 
 svg
 {
-    transform: translateY(8px);
+    transform: translateY(14px);
     fill: #601700;
     width: 40px;
     height: 40px;
@@ -35,6 +35,30 @@ svg
 svg:hover
 {
     fill: #07393c;
+}
+
+[data-title] {
+    position: relative; 
+    cursor: help; 
+}
+
+
+[data-title]::after {
+    content: attr(data-title);
+    position: absolute;
+    left: 0; top: 1.5em;
+    opacity: 0;
+    transition: 0.5s;
+    pointer-events: none;
+    background: rgba(0, 0, 0, 0);
+    font-size: 18px;
+    color: #601700;
+    padding: 0.5em;
+}
+
+[data-title]:hover::after
+{
+    opacity: 1;
 }
 
 #content
